@@ -14,7 +14,7 @@ jobs:
     uses: ./.github/workflows/terraform.yml
     with:
       environment: prod
-      aws-assume-role-arn: "arn:aws:iam::241533141943:role/github-actions-carlosportella16"
+      aws-assume-role-arn: "arn:aws:iam::548843622150:role/github-carlosportella16"
       aws-region: "sa-east-1"
-      aws-statefile-s3-bucket: "carlosportella16-sa-east-1-terraform-statefile"
-      aws-lock-dynamodb-table: "carlosportella16-sa-east-1-terraform-lock"
+      aws-statefile-s3-bucket: "carlosportella16-sa-east-1-terraform-state-file"
+      aws-lock-dynamodb-table: "carlosportella-sa-east-1-terraform-lock"
